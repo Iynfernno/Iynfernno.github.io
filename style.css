@@ -1,0 +1,135 @@
+*
+{
+    box-sizing: border-box;
+    color: #333333;
+    float:left;
+    font: 35px Arial, sans-serif;
+    overflow-x: hidden;
+}
+a
+{
+    color: darkgray;
+    /*text-decoration: underline darkgray solid;*/
+    text-decoration: none;
+    text-shadow: .5vh .5vw .5vh darkblue;
+}
+body
+{
+    background-color:Lavender;
+    height:200vh;
+    width:100vw;
+    margin:0;
+}
+
+h2
+{
+    font: 20px Arial, sans-serif;
+    margin: 0;
+}
+
+header
+{
+    background-color:Lavender;
+    height:35vh;
+    width:100vw;
+    color:black;
+    float:left;
+    font: 35px Arial, sans-serif;
+    margin:0;
+}
+
+.contentPage
+{
+    float:left;
+    height:130vh;
+    padding: 10vh 5vw 10vh 5vw;
+    width:100vw;
+}
+
+.pageBreak
+{
+    background-color:darkslateblue;
+    height: 1vh;
+    margin-bottom: 10vh;
+    width: 90vw;
+    border-radius: 3vw;
+}
+
+.selectionTab
+{
+    float:left;
+    height: 10vh;
+    width:20vw;
+}
+
+.selectionTab2
+{
+    width:10vw;
+}
+
+.title
+{
+    background-color:darkslateblue;
+    height:20vh;
+    padding-top:10vh;
+    text-align: center;
+    text-shadow: .5vh .5vw .5vh darkblue;
+    width:100vw;
+}
+
+#attentionGrabber
+{
+    font: 30px Arial, sans-sherif;
+    font-weight: bold;
+    height: 13vh;
+    margin: 2vh 0 2vh 0;
+    text-align: center;
+    width: 90vw;
+}
+
+#introductionText
+{
+    height: 235px;
+    padding: 0 0 0 2vw;
+    width: 545px;
+}
+
+#introductionText2
+{
+    height: 30vh;
+    padding: 0 0 0 2vw;
+    width: 80vw;
+}
+
+#lcsPicture
+{
+    height: 215px;
+    padding: 0 0 20px 0;
+    width: 545px;
+}
+
+#selected
+{
+    color: mediumpurple;
+    text-shadow: .5vh .5vw .5vh indigo;
+}
+#selectionBar
+{
+    background-color:darkslateblue;
+    height:15vh;
+    padding-top:5vh;
+    text-align: center;
+    width:100vw;	
+}
+
+#title1
+{
+    color: darkgray;
+    font: 45px Arial, sans-sherif;
+    font-weight: bold;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100vw;
+}

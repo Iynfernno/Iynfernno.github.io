@@ -1,114 +1,45 @@
+<!DOCTYPE html>
 <HTML>
 	<head>
-		<TITLE>Title</TITLE>
+		<TITLE>LCSSpendingBubble</TITLE>
 		<meta charset="UTF-8">
 		<meta name="author" content="Ethan Borror">
-		<style>
-			body
-			{
-			background-color:FloralWhite;
-		     	height:200vh;
-		     	width:100vw;
-			color:black;
-			float:left;
-			font: 35px Arial, sans-sherif;
-			margin:0;
-			}
-			h2
-			{
-			font: 20px Arial, sans-sherif;
-			}
-			header
-			{
-			background-color:FloralWhite;
-		     	height:50vh;
-		     	width:100vw;
-			color:black;
-			float:left;
-			font: 35px Arial, sans-sherif;
-			margin:0;
-			}
-			.contentHome
-			{
-			float:left;
-			height:130vh;
-			padding: 10vh 10vw 10vh 10vw;
-			width:80vw;
-			}
-			.selectionTab
-			{
-			float:left;
-			height:inherit;
-			width:20vw;
-			}
-			.selectionTab2
-			{
-			width:10vw;
-			}
-			#selectionBar
-			{
-			background-color:Blue;
-			height:15vh;
-			padding-top:5vh;
-			text-align: center;
-			width:100vw;	
-			}
-			#title
-			{
-			background-color:Grey;
-			font: 45px Arial, sans-sherif;
-			font-weight: bold;
-			height:20vh;
-			padding-top:10vh;
-			text-align: center;
-			width:100vw;
-			}
-		</style>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<header>
-			<section id="title">
-				<h1">League of Legends Spending Bubble</h1>
+			<section class="title">
+				<h1 id="title1">League of Legends Spending Bubble</h1>
 			</section>
-			<section>
-				<nav id="selectionBar">
-					<nav class="selectionTab selectionTab2"></nav>
-					<nav class="selectionTab">
-						Home
-					</nav>
-					<nav class="selectionTab">
-						Cause
-					</nav>
-					<nav class="selectionTab">
-						Effect
-					</nav>
-					<nav class="selectionTab">
-						Works Cited
-					</nav>
-					<nav class="selectionTab selectionTab2"></nav>
-				</nav>
-			</section>
+			<nav id="selectionBar">
+				<section class="selectionTab selectionTab2"></section>
+				<a class="selectionTab" id="selected" href="index.html">Home</a>
+				<a class="selectionTab" href="Cause.html">Cause</a>
+				<a class="selectionTab" href="Effects.html">Effects</a>
+				<a class="selectionTab" href="WorksCited.html">Works Cited</a>
+				<section class="selectionTab selectionTab2"></section>
+			</nav>
 	
 		</header>
-		<section class="contentHome">
-			<h2>Hi</h2>
-			<h2>Hi</h2>
-			<h2>Hi</h2>
-
-			<h2>Hi</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-			<h2>Hi</h2>
+		<section class="contentPage">
+			<h2 id="attentionGrabber">
+				The LCS had it's lowest viewership in years during the 2021
+				summer split and if they aren't careful it will continue to drop.
+			</h2>
+			<div class="pageBreak"></div>
+			<img id="lcsPicture" src="Pictures/League_championship_series_logo_2021.png" alt="LCS Logo"
+			 width="545" height="215">
+			<h2 id="introductionText">
+				League of Legends has consistantly been the worlds largest Esport since its creation in
+				2013. In order to organize professional play between different parts of the world Riot
+				Games (the creator of League of legends) seperated play between different regions, the
+				4 major regions being LPL, LCK, LEC, and LCS. The League of legneds championship series
+				(LCS) is the professional league that is hosted in North America. It consists of 10 teams
+				that play in Los Angeles, California during the spring and summer of every year.
+			</h2>
+			<h2 id="introductionText2">
+				
+			</h2>
 		</section>
 	</body>
 </HTML>
