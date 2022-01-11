@@ -16,7 +16,7 @@ a
 body
 {
     background-color:Lavender;
-    height:200vh;
+    height: 190vh;
     width:100vw;
     margin:0;
 }
@@ -38,10 +38,26 @@ header
     margin:0;
 }
 
+.advertisement
+{
+    height: 25vh;
+    width: 100vw;
+}
+
+.attentionGrabber
+{
+    font: 30px Arial, sans-sherif;
+    font-weight: bold;
+    height: 13vh;
+    margin: 2vh 0 2vh 0;
+    text-align: center;
+    width: 90vw;
+}
+
 .contentPage
 {
     float:left;
-    height:130vh;
+    height: inherit;
     padding: 10vh 5vw 10vh 5vw;
     width:100vw;
 }
@@ -67,6 +83,17 @@ header
     width:10vw;
 }
 
+.teamDescriptionBox
+{
+    width: 45vw;
+}
+
+.teamDescriptions
+{
+    padding: 0 2vw 0 3vw;
+    width: 30vw;
+}
+
 .title
 {
     background-color:darkslateblue;
@@ -77,14 +104,21 @@ header
     width:100vw;
 }
 
-#attentionGrabber
+#claim
 {
-    font: 30px Arial, sans-sherif;
+    height: 30vh;
+    font: 40px Arial, sans-sherif;
     font-weight: bold;
-    height: 13vh;
     margin: 2vh 0 2vh 0;
     text-align: center;
+    text-shadow: .2vh .2vw .5vh darkslateblue;
     width: 90vw;
+}
+
+#g2Logo
+{
+    height: 10vw;
+    width: 10vw;
 }
 
 #introductionText
@@ -94,18 +128,18 @@ header
     width: 545px;
 }
 
-#introductionText2
-{
-    height: 30vh;
-    padding: 0 0 0 2vw;
-    width: 80vw;
-}
-
 #lcsPicture
 {
     height: 215px;
     padding: 0 0 20px 0;
     width: 545px;
+}
+
+#raidAd
+{
+    height: 25vh;
+    margin-left: 15vw;
+    width: 70vw;
 }
 
 #selected
@@ -122,14 +156,19 @@ header
     width:100vw;	
 }
 
+#teamLiquidLogo
+{
+    height: 10vw;
+    width: 10vw;
+}
+
 #title1
 {
     color: darkgray;
     font: 45px Arial, sans-sherif;
     font-weight: bold;
-    height: inherit;
     margin: 0;
-    padding: 0;
+    padding: 0 0 1.5vh 0;
     text-align: center;
     width: 100vw;
 }
