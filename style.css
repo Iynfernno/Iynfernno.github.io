@@ -4,7 +4,7 @@
     color: #333333;
     float:left;
     font: 35px Arial, sans-serif;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 a
 {
@@ -133,6 +133,43 @@ header
     height: 215px;
     padding: 0 0 20px 0;
     width: 545px;
+}
+
+#lCSSummerFinalsPhoto
+{
+    background-color: darkslateblue;
+    border: .5vw solid darkslateblue;
+    border-radius: .5vw;
+    box-sizing: border-box;
+    height: 50vh;
+    width: 45vw;
+}
+
+#lCSSummerFinalsPhotoCaption
+{
+    height: 15vh;
+    padding: 2vh;
+    text-align: center;
+}
+
+#overview1
+{
+    height: 30vh;
+    padding: 0 0 2vh 2vw;
+    width: 43vw;
+}
+
+#overview2
+{
+    height: 32vh;
+    padding: 0 0 0 2vw;
+    width: 43vw;
+}
+
+#overviewContent1
+{
+    height: 65vh;
+    
 }
 
 #raidAd
