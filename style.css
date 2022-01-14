@@ -138,6 +138,28 @@ header
     width: 545px;
 }
 
+#jensenPhoto
+{
+    background-color: darkslateblue;
+    border: .5vw solid darkslateblue;
+    border-radius: .5vw;
+    box-sizing: border-box;
+    height: 50vh;
+    margin-bottom: 10vh;
+    width: 37vw;
+}
+
+#kobePhoto
+{
+    background-color: darkslateblue;
+    border: .5vw solid darkslateblue;
+    border-radius: .5vw;
+    box-sizing: border-box;
+    height: 46vh;
+    margin-bottom: 10vh;
+    width: 37vw;
+}
+
 #lcsPicture
 {
     height: 215px;
