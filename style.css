@@ -46,13 +46,30 @@ header
 
 .attentionGrabber
 {
-    font: 30px Arial, sans-sherif;
+    font: 40px Arial, sans-sherif;
     font-weight: bold;
     height: 13vh;
     margin: 2vh 0 2vh 0;
     text-align: center;
     text-shadow: .2vh .2vw .5vh darkslateblue;
     width: 90vw;
+}
+
+.citation
+{
+    padding: 0 0 3.5vh 0;
+    width: 60vw;
+}
+
+.citation2
+{
+    padding: 0 5vw 3.5vh 5vw;
+}
+
+.citationText
+{
+    padding: 0 0 3.5vh 5vw;
+    width: 25vw;
 }
 
 .contentPage
@@ -70,6 +87,11 @@ header
     margin-bottom: 10vh;
     width: 90vw;
     border-radius: 3vw;
+}
+
+.pictureCite
+{
+    width: 90vw;
 }
 
 .playerPhoto
